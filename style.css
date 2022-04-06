@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+.sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100vh;
+    background: rgba(0,2,63,0.9);
+    text-align: center;
+}
+.sidebar img{
+    width: 30px;
+    margin: 50px 30px 30px 30px ;
+    cursor: pointer;
+}
+.social-media{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+
+}
+.container{
+    width: 53%;
+    height: 100vh;
+    background: rgba(0,2,63,0.9);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .shop-logo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+}
+.play-logo{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+.info{
+    color: #fff;
+    margin: 100px;
+}
+.info h3{
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+.info h1{
+    margin-bottom:20px;
+    font-size: 50px;
+}
+.info p{
+    margin-top: 20px;
+}
